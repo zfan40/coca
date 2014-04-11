@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	
+  <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+  <script src="http://getbootstrap.com/2.3.2/assets/js/jquery.js"></script>
+  <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+  <script src="js/ui.js"></script>
+<script src="js/logic.js"></script>
+<script src = "js/sound.js"></script>
+<script src = "js/loadsound.js"></script>
+<link rel="stylesheet" type="text/css" href="css/ui.css">
+<script type="text/javascript">
+	var soda = new bottle(0,0,0,0,0,0,0,0,0,0);
+</script>
+<title>coca-cola fountain</title>
+</head>
+<body>
+<div>
+<p>tutorial: click on a type of drink, push. click on a another type of drink, push.</p>
+<p>push...push...push...</p>
+<p>watch on the status bar on the left, when it's 100% full, it's time to listen to your drink!</p>
+<div id = "fountain">
+<img src="image/asianfuse/main.png" alt="cocacola" id = "main">	
+</div>
+<div class = "drinktypes" id ="first">
+<img onclick = "soda.choosedrink(0)" src="image/asianfuse/coke.jpg" title = "Global" alt="cocacola" id = "coke" class="img-circle">
+<img onclick = "soda.choosedrink(1)" src="image/asianfuse/sprite.jpg" title = "Global" alt="cocacola" id = "sprite" class="img-circle">
+<img onclick = "soda.choosedrink(2)" src="image/asianfuse/fanta.png" title = "Global" alt="cocacola" id = "fanta" class="img-circle">
+</div>
+<div class = "drinktypes" id = "second">
+<img onclick = "soda.choosedrink(3)" src="image/asianfuse/smart.png" title = "China" alt="cocacola" id = "smart" class="img-circle">
+<img onclick = "soda.choosedrink(4)" src="image/asianfuse/qoo.jpg" title = "Japan" alt="cocacola" id = "qoo" class="img-circle">
+<img onclick = "soda.choosedrink(5)" src="image/asianfuse/tea.png" title = "Korea" alt="cocacola" id = "tea" class="img-circle">
+<img onclick = "soda.choosedrink(6)" src="image/asianfuse/kvass.jpg" title = "Russia" alt="cocacola" id = "kvass" class="img-circle">
+</div>
+<div class = "drinktypes" id = "third">
+<img onclick = "soda.choosedrink(7)" src="image/asianfuse/thumsup.jpg" title = "India" alt="cocacola" id = "thumsup" class="img-circle">
+<img onclick = "soda.choosedrink(8)" src="image/asianfuse/cafezu.jpg" title = "Thailand" alt="cocacola" id = "cafezu" class="img-circle">
+<img onclick = "soda.choosedrink(9)" src="image/asianfuse/water.png" title = "H2O"  alt="cocacola" id = "water" class="img-circle">
+</div>
+
+
+<div id="push">
+<img src="image/asianfuse/push1.png" alt="cocacola" id = "pushbutton" class="img-circle">
+<!-- <img src="image/asianfuse/push2.png" alt="cocacola" id = "water" class="img-circle"> -->
+</div>
+
+<div id="stats">
+<div id = "sum">
+	<title2>your drink<br> 0%</title2>
+</div>
+<div id = "stat"></div>
+</div>
+
+
+</body>
+</html>

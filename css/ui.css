@@ -1,0 +1,93 @@
+#fountain img
+{
+	position:relative;
+	top:50px;
+	left:150px;
+ 	height:800px;
+  	width:950px;
+    /*height: 100%;*/
+}
+
+
+#first
+{
+	height:140px;
+  	width:800px;
+	position:relative;
+	top:-625px;
+	left:400px;
+}
+
+
+#second
+{
+	height:140px;
+  	width:800px;
+	position:relative;
+	top:-625px;
+	left:320px;
+}
+
+
+#third
+{
+	height:140px;
+  	width:800px;
+	position:relative;
+	top:-625px;
+	left:400px;
+}
+
+
+.drinktypes img
+{
+float:left;
+width:120px;
+height:120px;
+margin-left:20px;
+margin-right:20px;
+margin-top:5px;
+margin-bottom:5px; 
+}
+
+#push
+{
+	height:140px;
+  	width:140px;
+	position:relative;
+	top:-602px;
+	left:585px;
+}
+
+#pushbutton
+{
+	float:left;
+	width:100px;
+	height:100px;
+}
+
+#stats
+{
+	position:relative;
+	width:170px;
+	height:600px;
+	top:-1300px;
+	left:0px;
+	background:#808080;
+}
+
+#stat
+{
+	position:relative;
+	width:170px;
+	height:400px;
+	background:#888888;
+}
+
+#sum
+{
+	position:relative;
+	width:170px;
+	height:200px;
+	background:#808080;
+}
